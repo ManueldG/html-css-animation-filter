@@ -27,7 +27,7 @@
 }
 
 .ex-4-square:hover {
-    background-color: trasparent;
+    background-color: rgba(255,0,0,0.5);
 }
 
 .ex-5-square {
@@ -35,6 +35,6 @@
 }
 
 .ex-5-square:hover {
-    height:120%;
-    width: 120%;
+    height:20%;
+    width: 20%;
 }
