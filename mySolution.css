@@ -104,11 +104,11 @@
 
 
 
-.ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
     animation: altalenaT 1s linear alternate infinite ;
 }
 
-.ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
     animation: altalenaB 1s linear alternate infinite ;
 }
 
@@ -122,31 +122,37 @@
     100% {left:10px; }
   }
 
-.ex-13-top-white {
+  .ex-13-button:hover .ex-13-top-white {
     top: -22px;
     height: 44px;
-    animation: altalenaT2 1s linear infinite ;
+    animation: altalenaT2 2s linear 1;
+    animation-play-state: running;
 }
 
-.ex-13-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white {
     bottom: -22px;    
     height: 44px;
-    animation: altalenaB2 1s linear infinite ;
+    animation: altalenaB2 2s linear 1;
+    animation-play-state: running;
 }
 
 @keyframes altalenaT2 {
-    0%{left:150px; top:-22px;}
-    25%{left: 150px; top: 42px;}
-    50%{left:-20px; top: 42px;}
-    100%{left:-20px; top: -22px}
+    0%{left:-20px; top: -22px}
+    30%{left:150px; top:-22px;}
+    45%{left: 150px; top: 42px;}
+    75%{left:-20px; top: 42px;}
+    90%{left:-20px; top: -22px}
+    100%{left:10%; top:-22px;}    
 }
 
- @keyframes altalenaB2 {
-    0%{left:-20px; top: 42px;}
-    25%{left:-20px; top: -22px}
-    50%{left:150px; top:-22px;}
-    100%{left: 150px; top: 42px;}
 
+ @keyframes altalenaB2 {
+    0%{right:-20px; bottom: -22px}
+    30%{right:150px; bottom:-22px;}
+    45%{right: 150px; bottom: 42px;}
+    75%{right:-20px; bottom: 42px;}
+    90%{right:-20px; bottom: -22px}
+    100%{right:10%; bottom:-22px;}  
   }
 
 
