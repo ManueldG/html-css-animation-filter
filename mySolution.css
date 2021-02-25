@@ -35,6 +35,5 @@
 }
 
 .ex-5-square:hover {
-    height: 30px;
-    width: 6%;
+    transform: scale(1,1);
 }
