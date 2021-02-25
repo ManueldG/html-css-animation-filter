@@ -105,11 +105,11 @@
 
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: altalenaT 1s linear alternate infinite ;
+    animation: altalenaT 1s linear alternate 3 ;
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: altalenaB 1s linear alternate infinite ;
+    animation: altalenaB 1s linear alternate 3 ;
 }
 
 @keyframes altalenaT {
