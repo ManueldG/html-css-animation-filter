@@ -29,3 +29,12 @@
 .ex-4-square:hover {
     background-color: trasparent;
 }
+
+.ex-5-square {
+    transition: 2s;
+}
+
+.ex-5-square:hover {
+    height:120%;
+    width: 120%;
+}
