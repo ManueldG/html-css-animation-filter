@@ -79,4 +79,17 @@
     transform: scale(150%);     
 }
 
+.ex-10-icon {
+    animation: giro 2s linear infinite reverse;
+}
+
+@keyframes giro {
+    0%   {transform: rotate(0);}
+    25%  {transform:rotate(90deg);}
+    50%  {transform:rotate(180deg);}
+    100% {transform:rotate(360deg);}
+  }
+
+
+
 
