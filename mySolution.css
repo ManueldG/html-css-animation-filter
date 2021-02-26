@@ -124,14 +124,14 @@
 
   .ex-13-button:hover .ex-13-top-white {
     top: -22px;
-    height: 44px;
+    height: 41px;
     animation: altalenaT2 2s linear 1;
     animation-play-state: running;
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
     bottom: -22px;    
-    height: 44px;
+    height: 41px;
     animation: altalenaB2 2s linear 1;
     animation-play-state: running;
 }
